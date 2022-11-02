@@ -14,14 +14,15 @@
  ```
 - Separate login/signup for candidate and recruiter
 - Recruiters can post job ,vioew the profile of applied candidate, update the status of job application,Give ratings
-  to applied candidates , send message to applied candidate
+   to applied candidates , send message to applied candidate
 - candidate can update their profile ,search jobs,apply to jobs , view sataus of their job application,read and reply
-  recruiters message.
+   recruiters message.
 ```
 
 * Innovations
 ```
-- 
+- Candidates can upload their resume.
+- job posts can be filtered according to the need of candidate.
 ```
 
 *Tech Stacks
