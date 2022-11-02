@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/primary_color"
+    android:background="@color/teal_200"
     android:padding="20dp">
 
     <TextView
@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/started_title"
-        android:textColor="@color/white"
+        android:textColor="#3F51B5"
         android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,14 +26,19 @@
         android:layout_height="wrap_content"
         android:layout_margintop="15dp"
         android:text="@string/started_subtitle"
-        android:textColor="@color/white"
+        android:textColor="#E91E63"
         android:textSize="21sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_started_title"
 
     />
-       <ImageView
+
+    <!--        style="@style/ButtonWhite"-->
+
+        />
+
+    <ImageView
         android:id="@+id/img_illustration_started"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,32 +46,33 @@
         android:src="@drawable/illustration_started"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
 
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@id/btn_login"
-        style="@style/ButtonWhite"
+        android:id="@id/nextButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="617dp"
-        tools:ignore="MissingConstraints" />
+        android:text="@string/btn_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="598dp"
+        tools:ignore="MissingConstraints"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@id/btn_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:text="Register"
-        style="@style/ButtonWhite"
+        android:text="@string/btn_register"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="648dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <!--        style="@style/ButtonWhite"-->
+         />
 
 
-   
-</androidx.constraintlayout.widget.ConstraintLayout>
+
