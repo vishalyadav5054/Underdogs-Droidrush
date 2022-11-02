@@ -25,7 +25,7 @@
 - job posts can be filtered according to the need of candidate.
 ```
 
-*Tech Stacks
+* Tech Stacks
 ```
 - We will be making an android application using Android studio and the flow will go in kotlin language
 ```
