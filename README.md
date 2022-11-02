@@ -1,7 +1,7 @@
 # Underdogs-Droidrush
 ## PS: { Smart Hire !!!}
 ## App Name: Get Hired
-
+   A hiring app that enables the candidate as well as recruiter to look for the correct job and correct candidate hassle free  and contact with each other. This is Droidrush Repository of Team Underdogs (Avishkar 2022- Annual Techfest of MNNIT Allahabad).
 ###  Underdogs
 
 * Team Members Name :
